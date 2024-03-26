@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-item img {
+  width: 200px;
+}
+
+.food-item-two img {
+  width: 200px;
+}
+
+.food-item-three img {
+  width: 200px;
+}

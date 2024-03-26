@@ -1,1 +1,228 @@
-.About{width:70%;display:flex;justify-content:center;align-items:center;flex-direction:column}.About-intro{display:flex;justify-content:center;align-items:center}.About-img img{width:50%}.About-group{display:flex;flex-direction:row}.About-welcome img{border-radius:20px;height:80%;width:100%;z-index:-1}.About-welcome h2{z-index:999}@media screen and (max-width:960px){.About-group{flex-direction:column}.About-img img{width:80%}}
+.About {
+  width: 70%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.About-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.About-img img {
+  width: 50px;
+}
+
+
+.About-img-Two img {
+  width: 50px;
+}
+
+.About-img-Three img {
+  width: 50px;
+}
+
+.About-img-Three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About-group {
+  display: flex;
+  flex-direction: row;
+}
+.About-welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background: url(../img/burger-top.png);
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+
+.About-welcome h2 {
+  color: var(--white);
+  font-size: 50px;
+}
+.btn-menu {
+  border: 1px solid var(--yellow);
+  background-color: var(--yellow);
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: #fff;
+  font-weight: bold;
+  transition: all ease-in-out .3s;
+}
+
+.btn-menu:hover {
+  color: var(--yellow);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 960px) {
+  .About-group {
+    flex-direction: row;
+  }
+  .About-img img {
+    width: 80%;
+  }
+}
+
+/* About food */
+.About-food {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.About-food-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.About-food h2 span {
+  font-family: var(--font-logo);
+}
+
+.About-food-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+.About-food-item-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.About-food-item-title h2 {
+  color: black;
+}
+
+.About-food-item-title button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 0 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.About-food-item-title button:hover {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+
+.About-food-item img {
+  width: 200px;
+  background-color: transparent;
+  filter: drop-shadow(0 0 .1rem black);
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+}
+
+
+.About-chef-img {
+  width: 200px;
+}
+
+/* Responsive Food Item */
+
+@media screen and (max-width: 898px) {
+  .About-food-container {
+    flex-direction: column;
+  }
+  .About-food-item-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .About-food-item-title h2 {
+    color: black;
+    font-size: 18px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .About-food-item-title button {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+  
+  .About-food-item-title button:hover {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+  }
+  
+  
+  .About-food-item img {
+    width: 120px;
+    background-color: transparent;
+    filter: drop-shadow(0 0 .1rem black);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+  }
+  
+  .About-food-item:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+
+  .About-food-item {
+    flex-direction: row;
+  }
+  
+  
+  .About-chef-img {
+    margin-top: 90px;
+    width: 200px;
+  }
+
+  .About {
+    width: 90%;
+  } 
+}
+
+@media screen and (max-width: 520px) {
+  .About {
+    width: 90%;
+  }
+  .About-food-item {
+    flex-direction: column-reverse;
+  }
+
+  .About-food-item:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+}

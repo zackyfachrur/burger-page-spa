@@ -1,3 +1,10 @@
+#root {
+	--font-logo: "Whisper", cursive;
+	--font-nav-list: font-family: "MuseoModerno", sans-serif;
+	--yellow: #ffc526;
+	--white: #e6e6e6
+}
+
 header {
   width: 100%;
   display: flex;
@@ -12,4 +19,19 @@ header {
   justify-content: center;
   align-items: center;
   margin: auto;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffc526;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+	background-color: transparent
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: transparent;
 }
