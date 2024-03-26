@@ -15,7 +15,7 @@ export default function About () {
       <div className="About">
           <div className="About-welcome">
             <h2>Delicious Food By Maman</h2>
-            <button className='btn-menu' onClick={() => window.location='/food'}>Let's Get Started</button>
+            <button className='btn-menu' onClick={() => window.location='/food'}>Go To Menu</button>
           </div>
         <SliderOfBurger />
       </div>
@@ -28,7 +28,8 @@ export default function About () {
           <div className="About-food-item">
             <div className="About-food-item-title">
               <h2>Deliciousness Displayed</h2>
-              <button>Go To Menu</button>
+              <p>Savor our tantalizing burgers, each bite a delightful experience that satisfies cravings with captivating flavors.</p>
+              <button onClick={() => window.location='/food'}>Go To Menu</button>
             </div>
             <img src={TwoOfBurgerAbout} alt="" />
           </div>
@@ -36,7 +37,8 @@ export default function About () {
           <div className="About-food-item">
             <div className="About-food-item-title">
               <h2>True Taste Experience</h2>
-              <button>Go To Menu</button>
+              <p>Savor our gourmet burgers, crafted with finest ingredients for a satisfying dining experience.</p>
+              <button onClick={() => window.location='/food'}>Go To Menu</button>
             </div>
             <img src={BurgerAbout} alt="" />
           </div>
@@ -44,7 +46,8 @@ export default function About () {
           <div className="About-food-item">
             <div className="About-food-item-title">
               <h2>Unforgettable Burger</h2>
-              <button>Go To Menu</button>
+              <p>Savor unforgettable burgers with juicy meat and captivating flavors, leaving you craving more.</p>
+              <button onClick={() => window.location='/food'}>Go To Menu</button>
             </div>
             <img src={ThreeOfBurgerAbout} alt="" />
           </div>

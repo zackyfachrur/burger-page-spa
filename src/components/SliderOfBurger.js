@@ -51,20 +51,20 @@ function MultipleItems() {
           <img src={BurgerAbout} alt="" />
         </div>
         <div className="About-img-Two">
-            <img src={TwoOfBurgerAbout} alt="Burger About" />
-          </div>
-          <div className="About-img-Three">
-            <img src={ThreeOfBurgerAbout} alt="Burger About" />
-          </div>
-          <div className="About-img">
-            <img src={BurgerAbout} alt="Burger About" />
-          </div>
-          <div className="About-img-Two">
-            <img src={TwoOfBurgerAbout} alt="Burger About" />
-          </div>
-          <div className="About-img-Three">
-            <img src={ThreeOfBurgerAbout} alt="Burger About" />
-          </div>
+          <img src={TwoOfBurgerAbout} alt="Burger About" />
+        </div>
+        <div className="About-img-Three">
+          <img src={ThreeOfBurgerAbout} alt="Burger About" />
+        </div>
+        <div className="About-img">
+          <img src={BurgerAbout} alt="Burger About" />
+        </div>
+        <div className="About-img-Two">
+          <img src={TwoOfBurgerAbout} alt="Burger About" />
+        </div>
+        <div className="About-img-Three">
+          <img src={ThreeOfBurgerAbout} alt="Burger About" />
+        </div>
       </Slider>
     </div>
   );

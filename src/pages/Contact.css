@@ -1,0 +1,108 @@
+#root {
+  --blue: #5799F0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 200px;
+  padding: 20px;
+}
+
+.contact-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-container form label{
+  font-weight: bold;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-container form label input {
+  margin: 5px;
+  width: 162px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  transition: all ease-in-out .3s;
+}
+
+.contact-container form label input[type=text]:focus::placeholder{
+  margin: 5px;
+  transition: all ease-in-out .3s;
+  font-weight: bold;
+  color: var(--yellow);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.contact-container form label input[type=text]:focus{
+  margin: 5px;
+  transition: all ease-in-out .3s;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+}
+
+
+.contact-container .btn-contact{
+  margin-top: 50px;
+  border: 1px solid var(--yellow);
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: var(--yellow);
+}
+
+.contact-container .btn-contact:hover{
+  background-color: transparent;
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.select-food {
+  width: 200px;
+}
+
+/* Responsive */
+@media screen and (max-width: 960px) {
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+    padding: 20px;
+  }
+
+  .chef-contact {
+    width: 200px;
+  }
+}

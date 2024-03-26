@@ -11,7 +11,7 @@ main {
   display: flex;
 }
 .home {
-  height: 70vh;
+  height: 80vh;
   align-items: center;
   flex-direction: row;
   gap: 80px;
@@ -37,7 +37,6 @@ main {
   padding: 5px 20px;
   font-size: 14px;
   font-weight: 700;
-  transition: 0.3s;
 }
 .btn-order {
   border: 1px solid var(--yellow);
@@ -79,10 +78,29 @@ main {
   border-radius: 20px;
   filter: drop-shadow(0 0 0.1rem black);
 }
+
+/* Responsive */
 @media screen and (max-width: 960px) {
+  
   .home {
     padding-top: 30px;
+    height: 100%;
     flex-direction: column;
     gap: 50px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .home-intro {
+    place-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+  }
+  .home-img img {
+    display: flex;
+    width: 300px;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.1rem black);
   }
 }

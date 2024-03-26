@@ -9,6 +9,12 @@ export default function Footers() {
           <h2>Masakan Maman</h2>
         </div>
       </div>
+      <ul className='Nav-footer-list'>
+        <li><a href="/" >Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/food">Menu</a></li>
+        <li><a href="#/">Contact</a></li>
+      </ul>
     </div>
   );
 }

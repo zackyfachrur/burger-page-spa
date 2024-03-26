@@ -50,6 +50,10 @@
 
 .About-welcome h2 {
   color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 50px;
 }
 .btn-menu {
@@ -59,7 +63,6 @@
   padding: 5px 20px;
   color: #fff;
   font-weight: bold;
-  transition: all ease-in-out .3s;
 }
 
 .btn-menu:hover {
@@ -69,15 +72,6 @@
 }
 
 
-@media screen and (max-width: 960px) {
-  .About-group {
-    flex-direction: row;
-  }
-  .About-img img {
-    width: 80%;
-  }
-}
-
 /* About food */
 .About-food {
   display: flex;
@@ -85,6 +79,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.About-food img {
+  width: 300px;
+  filter: drop-shadow(0 0 .1rem black);
 }
 
 .About-food-container {
@@ -105,7 +104,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column-reverse;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -120,11 +119,17 @@
   color: black;
 }
 
+.About-food-item-title p {
+  text-align: center;
+  width: 300px;
+  padding-bottom: 30px;
+}
+
 .About-food-item-title button {
   background-color: black;
   color: white;
-  font-size: 18px;
-  padding: 0 20px;
+  font-weight: bold;
+  padding: 5px 20px;
   border-radius: 20px;
   border: 1px solid black;
 }
@@ -152,10 +157,31 @@
 
 /* Responsive Food Item */
 
+
+@media screen and (max-width: 960px) {
+  .About-group {
+    flex-direction: row;
+  }
+  .About-img img {
+    width: 80%;
+  }
+}
+
+
 @media screen and (max-width: 898px) {
   .About-food-container {
     flex-direction: column;
   }
+
+  .About-welcome h2 {
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+  }
+
   .About-food-item-title {
     display: flex;
     justify-content: center;
@@ -174,7 +200,7 @@
     color: white;
     font-size: 14px;
     font-weight: bold;
-    padding: 0 20px;
+    padding: 3px 20px;
     border-radius: 20px;
     border: 1px solid black;
   }
@@ -225,4 +251,15 @@
   .About-food-item:nth-child(2) {
     flex-direction: column-reverse;
   }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  margin-top: 200px;
+  border-radius: 20px 20px 0 0;
+  filter: drop-shadow(0 0 .2rem black);
 }

@@ -11,13 +11,13 @@ export default function Navbar() {
   return(
     <nav className="navbar-nav">
       <h2 className="logo">{navbar.logoDesc}</h2>
-      <ul className={`nav-list${navbarOpen ? ' hidden' : ''}`} id="nav-list">
+      <ul className={`nav-list${navbarOpen ? '' : ' hidden'}`} id="nav-list">
         <li><a href="/" >Home</a></li>
         <li><a href="/about">About</a></li>
-        <li><a href="/food">Food</a></li>
-        <li><a href="#/">Contact</a></li>
+        <li><a href="/food">Menu</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
-        <div className="hamburger-menu" id="hamburger-menu" onClick={() => setNavbarOpen(!navbarOpen)}>
+        <div className={`hamburger-menu${navbarOpen ? ' hamburger-active' : ''}`} id="hamburger-menu" onClick={() => setNavbarOpen(!navbarOpen)}>
           <div className="line"></div>
           <div className="line"></div>
         </div>
