@@ -1,11 +1,12 @@
 import './About.css'
-import Navbar from '../components/Navbar.js'
-import SliderOfBurger from '../components/SliderOfBurger.js'
+import Navbar from '../components/Navbar'
+import SliderOfBurger from '../components/SliderOfBurger'
 import BurgerAbout from '../img/burger-about.jpg'
 import ChefCharacter from '../img/chef-character.jpg'
 import TwoOfBurgerAbout from '../img/burger-about-2.png'
 import ThreeOfBurgerAbout from '../img/burger-about-3.png'
-import Footers from '../components/Footer.js'
+import Footers from '../components/Footer'
+import React from 'react'
 
 
 export default function About () {

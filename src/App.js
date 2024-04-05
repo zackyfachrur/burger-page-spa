@@ -1,12 +1,56 @@
-import './App.css';
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home.js"
-import About from "./pages/About.js"
-import Food from "./pages/Food.js"
-import Contact from "./pages/Contact.js"
-import Submit from "./pages/Submit.js"
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import Food from "./pages/Food.jsx";
+import Contact from "./pages/Contact.jsx";
+import Submit from "./pages/Submit.jsx";
+import { InfinitySpin } from "react-loader-spinner";
+import React, { useState, useEffect } from "react";
+import ChefLoading from "./img/chef-home.jpg";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
+  if (isLoading) {
+    return (
+      <main
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          width: 80 + "%",
+          flexDirection: "row",
+          height: 100 + "vh",
+        }}
+      >
+        <img
+          src={ChefLoading}
+          alt=""
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            margin: "auto",
+            width: 150 + "px",
+          }}
+        />
+        <InfinitySpin
+          visible={true}
+          width="200"
+          color="black"
+          ariaLabel="infinity-spin-loading"
+        />
+      </main>
+    );
+  };
+
   return (
     <BrowserRouter>
       <Routes>
@@ -18,6 +62,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

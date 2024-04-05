@@ -1,7 +1,8 @@
 import './Home.css'
-import Navbar from '../components/Navbar.js'
-import Footers from '../components/Footer.js'
+import Navbar from '../components/Navbar'
+import Footers from '../components/Footer'
 import ChefHome from '../img/chef-home.jpg'
+import React from 'react'
 
 export default function Home() {
   const home = {
