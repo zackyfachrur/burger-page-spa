@@ -1,6 +1,6 @@
 #root {
 	--font-logo: "Whisper", cursive;
-	--font-nav-list: font-family: "MuseoModerno", sans-serif;
+	--font-nav-list: "MuseoModerno", sans-serif;
 	--yellow: #ffc526;
 	--white: #e6e6e6
 }

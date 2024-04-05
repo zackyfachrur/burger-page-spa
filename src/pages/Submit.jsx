@@ -1,6 +1,7 @@
 import './Submit.css'
-import Navbar from '../components/Navbar.js'
+import Navbar from '../components/Navbar'
 import ChefContact from '../img/chef-contact.jpg'
+import React from 'react'
 
 
 export default function Contact () {
