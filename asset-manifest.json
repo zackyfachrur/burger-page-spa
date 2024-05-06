@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/burger-page/static/css/main.af625303.chunk.css",
+    "main.js": "/burger-page/static/js/main.8ed778ee.chunk.js",
+    "main.js.map": "/burger-page/static/js/main.8ed778ee.chunk.js.map",
+    "runtime~main.js": "/burger-page/static/js/runtime~main.5727abf5.js",
+    "runtime~main.js.map": "/burger-page/static/js/runtime~main.5727abf5.js.map",
+    "static/css/2.9c1d453f.chunk.css": "/burger-page/static/css/2.9c1d453f.chunk.css",
+    "static/js/2.59b92499.chunk.js": "/burger-page/static/js/2.59b92499.chunk.js",
+    "static/js/2.59b92499.chunk.js.map": "/burger-page/static/js/2.59b92499.chunk.js.map",
+    "static/js/3.b1b92a21.chunk.js": "/burger-page/static/js/3.b1b92a21.chunk.js",
+    "static/js/3.b1b92a21.chunk.js.map": "/burger-page/static/js/3.b1b92a21.chunk.js.map",
+    "index.html": "/burger-page/index.html",
+    "precache-manifest.53c1d39f0ed1fbfda129b273dba1e05a.js": "/burger-page/precache-manifest.53c1d39f0ed1fbfda129b273dba1e05a.js",
+    "service-worker.js": "/burger-page/service-worker.js",
+    "static/css/2.9c1d453f.chunk.css.map": "/burger-page/static/css/2.9c1d453f.chunk.css.map",
+    "static/css/main.af625303.chunk.css.map": "/burger-page/static/css/main.af625303.chunk.css.map",
+    "static/media/burger-about-2.png": "/burger-page/static/media/burger-about-2.09b5a4ee.png",
+    "static/media/burger-about-3.png": "/burger-page/static/media/burger-about-3.54c2c920.png",
+    "static/media/burger-about.jpg": "/burger-page/static/media/burger-about.95ad0f3b.jpg",
+    "static/media/About.css": "/burger-page/static/media/burger-top.dd388e03.png",
+    "static/media/chef-character.jpg": "/burger-page/static/media/chef-character.c64549f7.jpg",
+    "static/media/chef-contact.jpg": "/burger-page/static/media/chef-contact.9611107e.jpg",
+    "static/media/chef-home.jpg": "/burger-page/static/media/chef-home.ad6aef01.jpg",
+    "static/media/orange.png": "/burger-page/static/media/orange.e442fc63.png",
+    "static/media/slick-theme.css": "/burger-page/static/media/slick.f97e3bbf.svg",
+    "static/media/strawberry.png": "/burger-page/static/media/strawberry.088b453f.png",
+    "static/media/tea.png": "/burger-page/static/media/tea.7a3a593b.png",
+    "static/media/water.png": "/burger-page/static/media/water.2b1e46b6.png"
+  }
+}
