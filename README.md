@@ -1,9 +1,10 @@
 ### Website ini dibuat menggunakan `React JS`
 
 Jalankan Perintah Berikut Untuk Instalasi Repositori Ini :
+
 ```
 git clone https://github.com/zackyfachrur/burger-page.git
-```bash
+```
 
 
 ### Struktur Folder : 
